@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽選輪盤</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h1>抽選輪盤</h1>
+            <div class="wheel-container">
+                <svg class="wheel" width="600" height="600" viewBox="0 0 100 100">
+                    <!-- 扇形區域和文字會由 JavaScript 動態生成 -->
+                </svg>
+
+                <div class="face-image">
+                    <img src="img/臉.png" alt="face">
+                </div>
+                
+                <!-- 旋轉的指針 -->
+                <!-- <div class="pointer">
+                    <svg viewBox="0 0 100 100">
+                        <g transform="translate(50, 50)">
+                            <path d="M -2 -5 L 2 -5 L 0 -30 Z" 
+                                  fill="#FF0000" 
+                                  stroke="#880000" 
+                                  stroke-width="0.5"/>
+                            <circle cx="0" cy="0" r="5" fill="#333"/>
+                        </g>
+                    </svg>
+                </div> -->
+                <div class="pointer-wrapper">  <!-- 新增的包裝容器 -->
+                    <div class="pointer">
+                        <div class="pointer-image"></div>
+                    </div>
+                </div>
+            
+                
+            </div>
+            <button id="spinButton" class="spin-button">開始旋轉</button>
+        </main>
+    </div>
+    <script src="wheel.js"></script>
+</body>
+</html>
