@@ -147,9 +147,9 @@ class Wheel {
                 resultElement.className = 'result-popup';
                 resultElement.innerHTML = `
                     <div class="result-content">
-                        <h2>恭喜你！</h2>
-                        <p>你選到了：${selectedItem.text}</p>
-                        <button onclick="this.parentElement.parentElement.remove()">確定</button>
+                        <h2>恭喜各位委員！</h2>
+                        <p>今天中午會發：<span style="font-weight: bold; font-size: 1.2em">${selectedItem.text}</span>！</p>
+                        <button onclick="this.parentElement.parentElement.remove()" style="padding: 10px 20px; font-size: 16px;">確定</button>
                     </div>
                 `;
                 document.body.appendChild(resultElement);
