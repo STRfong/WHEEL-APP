@@ -149,7 +149,11 @@ class Wheel {
                     <div class="result-content">
                         <h2>恭喜各位委員！</h2>
                         <p>今天中午會發：<span style="font-weight: bold; font-size: 1.2em">${selectedItem.text}</span>！</p>
-                        <button onclick="this.parentElement.parentElement.remove()" style="padding: 10px 20px; font-size: 16px;">確定</button>
+                        <p style="margin-top: 10px; color: #666; font-size: 0.8em">
+                            歡迎截圖分享至 Instagram<br>
+                            標記 @str_network @tnns.Taiwan
+                        </p>
+                        <button onclick="this.parentElement.parentElement.remove()" style="padding: 10px 20px; font-size: 16px;">換吃其他的！</button>
                     </div>
                 `;
                 document.body.appendChild(resultElement);
