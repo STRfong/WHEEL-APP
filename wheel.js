@@ -151,7 +151,7 @@ class Wheel {
                         <p>今天中午會發：<span style="font-weight: bold; font-size: 1.2em">${selectedItem.text}</span>！</p>
                         <p style="margin-top: 10px; color: #666; font-size: 0.8em">
                             歡迎截圖分享至 Instagram<br>
-                            標記 @str_network @tnns.Taiwan
+                            標記 @str_network @tnns.taiwan
                         </p>
                         <button onclick="this.parentElement.parentElement.remove()" style="padding: 10px 20px; font-size: 16px;">換吃其他的！</button>
                     </div>
