@@ -2,8 +2,8 @@ class Wheel {
     constructor() {
         // 定義輪盤項目和百分比（總和需要為 100%）
         this.items = [
-            { text: '拉麵', percentage: 6.25 },
-            { text: '壽司', percentage: 6.25 },
+            { text: '麥當勞', percentage: 6.25 },
+            { text: 'Pizza', percentage: 6.25 },
             { text: '牛肉麵', percentage: 6.25 },
             { text: '披薩', percentage: 6.25 },
             { text: '漢堡', percentage: 6.25 },
